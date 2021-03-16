@@ -28,7 +28,7 @@ export default () => {
           <div className="row">
             <div className="columns">
               <FontAwesomeIcon icon={ faMapMarkerAlt } />
-              <h3 className="address">Come Visit</h3>
+              <h3 className="address">Posjetite nas</h3>
               <p>
                 { address.line1 }<br />
                 { address.line2 }<br />
@@ -38,7 +38,7 @@ export default () => {
 
          <div className="columns">
            <FontAwesomeIcon icon={ faUsers } />
-           <h3 className="social">socialize</h3>
+           <h3 className="social">Zapratite na socijalnim mrežama</h3>
            <ul>
              { social.map(mySocial =>
                <li><a href={ mySocial.url }>
@@ -50,7 +50,7 @@ export default () => {
 
           <div className="columns last">
             <FontAwesomeIcon icon={ faEnvelope } />
-             <h3 className="contact">Contact Us</h3>
+             <h3 className="contact">Kontaktirajte nas</h3>
              <ul>
                { contacts.map((contact, index) =>
                  <li><a href={ contact.url }>{ contact.text }</a></li>
@@ -60,7 +60,7 @@ export default () => {
         </div>
       </div>
 
-      <p className="copyright">&copy; 2014 Woo | Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a> | Ported to Gatsby by <a href="https://github.com/desmukh/gatsby-starter-woo" title="Fahad Desmukh">Fahad Desmukh</a> </p>
+      <p className="copyright">&copy; 2021 Vagor | Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a> | Ported to Gatsby by <a href="https://github.com/desmukh/gatsby-starter-woo" title="Fahad Desmukh">Fahad Desmukh</a> </p>
 
       <div id="go-top">
         <button title="Back to Top" onClick={() => scrollTo('#top')}>

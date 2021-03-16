@@ -7,11 +7,11 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: `Woo - Free Responsive HTML5/CSS3 Template`,
+    title: `Vagor Company UV Terminator`,
     author: {
-      name: `Joe Bloggs`,
+      name: `Armin Busatlic`,
     },
-    description: `Woo is a clean, modern, landing page site template.`,
+    description: `Vagor kompanija za nabavku UV lampi`,
 
     /* Choose and arrange the sections to be displayed on the landing page */
     sections: [
@@ -26,11 +26,11 @@ module.exports = {
 
     /* Configure the navigation menu */
     menuItems: [
-      {path: 'features', label: 'Features'},
-      {path: 'pricing', label: 'Pricing'},
-      {path: 'screenshots', label: 'Screenshots'},
-      {path: 'testimonials', label: 'Testimonials'},
-      {path: 'subscribe', label: 'Subscribe'},
+      {path: 'features', label: 'Proizvodi'},
+      {path: 'pricing', label: 'O proizvodu'},
+      {path: 'screenshots', label: 'Galerija'},
+      {path: 'testimonials', label: 'Reference'},
+      {path: 'subscribe', label: 'Kontakt'},
     ],
 
     /* Provide social media accounts. Remove or add new services. (The value 'fa' is the name of FontAwesome icon to display. Choose from here: https://fontawesome.com/cheatsheet/free/brands ) */
@@ -48,12 +48,13 @@ module.exports = {
 
     /* Path to favicon and logo (located inside the 'static' folder) */
     favicon: `favicon.png`,
-    logo: `/images/logo.png`,
+    logo: `/images/VagorLogo.png`,
 
     /* Logo and text to show in footer */
     footer: {
-      logo: `/images/footer-logo.png`,
-      text: `This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.`,
+      logo: `/images/VagorLogo.png`,
+      text: `UVC TERMINATOR – NEUTRALIŠITE SVE VIRUSE I BAKTERIJE
+      U VAZDUHU KOJI UDIŠETE I POVRŠINAMA KOJE DODIRUJETE!`,
     },
 
     /* Address and contact info to show in footer */

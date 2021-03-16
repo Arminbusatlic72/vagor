@@ -19,13 +19,13 @@ export default () => (
       let media
       if (value.image){
         media = ( <img src={ value.image } alt="" /> )
-      } else if (value.vimeo) {
+      } else if (value.video) {
         media = (
             <div className="fluid-video-wrapper">
               <iframe
                 title="video"
-                src={ 'https://player.vimeo.com/video/' + value.vimeo + '?title=0&amp;byline=0&amp;portrait=0&amp;color=F64B39'}
-                width="500" height="281" frameBorder="0" webkitallowfullscreen="true"
+                src={ value.video}
+                width="500" height="500" frameBorder="0" webkitallowfullscreen="true"
                 mozallowfullscreen="true"
                 allowFullScreen
                 >

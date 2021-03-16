@@ -14,7 +14,12 @@ export default () => {
     <section id="pricing">
       <div className="row section-head">
         <h1>{ content.title }</h1>
+        <h2>{ content.subtitle }</h2>
         <p>{ content.body }</p>
+        <p>{ content.body1 }</p>
+        <p>{ content.body2 }</p>
+
+
       </div>
 
       <div className="row">

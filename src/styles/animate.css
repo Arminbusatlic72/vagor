@@ -1260,6 +1260,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .fadeInUp {
+  animation-delay: 2s;
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
 }
