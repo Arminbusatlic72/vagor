@@ -1,35 +1,35 @@
-title: Product Screenshots.
+title: Galerija proizvoda.
 body: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
 screenshots:
   -
-    big: 'b-line-icons.jpg'
-    thumb: 'line-icons.jpg'
+    big: 'b-vagor-proizvod-1.jpg'
+    thumb: 'vagor-proizvod-1.jpg'
     caption: 'Line Icons'
   -
-    big: 'b-hipster.jpg'
-    thumb: 'hipster.jpg'
+    big: 'b-vagor-proizvod-2.jpg'
+    thumb: 'vagor-proizvod-2.jpg'
     caption: 'Hipster'
   -
-    big: 'b-authentic-vintage.jpg'
-    thumb: 'authentic-vintage.jpg'
+    big: 'b-vagor-proizvod-3.jpg'
+    thumb: 'vagor-proizvod-3.jpg'
     caption: 'Authentic Vintage'
   -
-    big: 'b-spot-uv-logo.jpg'
-    thumb: 'spot-uv-logo.jpg'
+    big: 'b-vagor-proizvod-4.jpg'
+    thumb: 'vagor-proizvod-4.jpg'
     caption: 'Spot UV Logo'
   -
-    big: 'b-tshirt-mockup.jpg'
-    thumb: 'tshirt-mockup.jpg'
+    big: 'b-vagor-proizvod-5.jpg'
+    thumb: 'vagor-proizvod-5.jpg'
     caption: 'TShirt Mockup'
   -
-    big: 'b-abstract-vector.jpg'
-    thumb: 'abstract-vector.jpg'
+    big: 'b-vagor-proizvod-6.jpg'
+    thumb: 'vagor-proizvod-6.jpg'
     caption: 'Abstract Vector'
   -
-    big: 'b-embossed-paper.jpg'
-    thumb: 'embossed-paper.jpg'
+    big: 'b-vagor-proizvod-7.jpg'
+    thumb: 'vagor-proizvod-7.jpg'
     caption: 'Embossed Paper'
   -
-    big: 'b-judah.jpg'
-    thumb: 'judah.jpg'
+    big: 'b-vagor-proizvod-8.jpg'
+    thumb: 'vagor-proizvod-8.jpg'
     caption: 'Judah'

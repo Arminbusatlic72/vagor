@@ -69,5 +69,17 @@ module.exports = {
       { text: `someone@woosite.com`, url: `mailto:someone@woo.com`},
     ],
   },
-  plugins: [ `gatsby-plugin-anchor-links`, `gatsby-plugin-smoothscroll`, `react-scrollspy` ],
+  plugins: [ 
+    `gatsby-plugin-anchor-links`, 
+    `gatsby-plugin-smoothscroll`, 
+    `react-scrollspy`,
+    `gatsby-plugin-image`,
+  {
+    resolve: `gatsby-source-filesystem`,
+    options: {
+      name: `images`,
+      path: `${__dirname}/src/images/`,
+    },
+  },`gatsby-transformer-sharp`, 
+  `gatsby-plugin-sharp` ],
 }

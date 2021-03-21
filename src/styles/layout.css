@@ -56,7 +56,7 @@ body {
 /* ------------------------------------------------------------------ */
 
 header {
-  height: 55px;
+  height: 75px;
   width: 100%;
   background: #13171b;
   position: fixed;
@@ -69,7 +69,7 @@ header {
 header .logo {
   margin-left: 36px;
   margin-right: 20px;
-  margin-top: 5px;
+  margin-top: 15px;
   float: left;
   width: auto;
   z-index: 991;
@@ -84,7 +84,7 @@ header .logo a {
   padding: 0;
   border: none;
   outline: none;
-  width: 120px;
+  width: 135px;
   height: auto;
 }
 header .log a img {
@@ -98,7 +98,7 @@ header .header-social {
   font-weight: normal;
   line-height: 54px;
   color: #424a56;
-  margin: 0 10px 0 0;
+  margin: 10px 10px 0 0;
   padding: 0;
   float: right;
 }
@@ -127,6 +127,7 @@ header .header-social li a:hover {
 
 /* nav-wrap */
 #nav-wrap {
+  margin-top: 10px;
   font: 11px "Montserrat", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1.5px;
@@ -160,7 +161,7 @@ ul.nav li button {
   line-height: 38px;
   text-decoration: none;
   text-align: left;
-  color: #58687a;
+  color: #aaa;
 
   -webkit-transition: color 0.2s ease-in-out;
   -moz-transition: color 0.2s ease-in-out;
@@ -195,21 +196,21 @@ ul.nav li.current button {
 /* For high-res devices */
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   #hero {
-    background: #23292f url(img/hero-bg_@2X.png);
-    background-size: 200px 200px;
+    background: #23292f;
+    /* background-size: 200px 200px; */
   }
 }
 
 #hero .row {
   max-width: 1040px;
-  
 }
 
 /* Hero Text */
 .hero-text {
   color: #676e73;
   width: 83%;
-  margin-top:20%;
+  margin-top: 25%;
+  margin-bottom: 6%;
 }
 .hero-text h1 {
   font: 800 40px/1.2em "Montserrat", sans-serif;
@@ -240,31 +241,32 @@ ul.nav li.current button {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-  /* margin: 0 auto; */
+  height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  
 }
-.hero-image img {
+.hero-image .gatsby-image-wrapper {
   height: 100%;
   width: 100%;
-  vertical-align: bottom;
-  display: block;
-  
 }
-
+.stop-covid {
+  display: block;
+  position: absolute;
+  top: -145px;
+  right: 80px;
+  width: 200px;
+}
 /* Hero CTA Buttons */
 #hero .buttons {
-  
   margin: 0 0 18px 0;
 }
 #hero .buttons .button {
   font: bold 14px/24px "Montserrat", sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
+  text-align: center;
 }
 #hero .buttons .trial {
   background: #f64b39;
@@ -313,6 +315,16 @@ ul.nav li.current button {
 }
 .fluid-video-wrapper {
   margin-top: 18px;
+  height: 0;
+  position: relative;
+  padding-bottom: 83.25%;
+}
+.fluid-video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /*----------------------------------------------*/
@@ -549,7 +561,31 @@ ul.features li:nth-child(even) {
   font-weight: 600;
   color: #a9b5c0;
 }
-
+#call-to-action .columns svg {
+  font-family: "FontAwesome";
+  margin: 0 0 6px 3px;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: left;
+  color: #738291;
+  display: block;
+}
+.table {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.table li {
+  padding: 10px 10px 5px 5px;
+  border-bottom: 1px solid white;
+  margin: 0;
+}
+.table li:last-child {
+  border-bottom: none;
+}
 /* ------------------------------------------------------------------
 /* h. Testimonials
 /* ------------------------------------------------------------------ */
@@ -1148,12 +1184,10 @@ a#imagelightbox-close:focus {
   margin: 0 auto;
   height: 450px;
   padding: 10px 0;
-  
 }
 .contact_form input[name="email"],
 input[name="name"] {
   width: 100%;
-  
 }
 .input_fields__wrapp {
   display: flex;
@@ -1165,8 +1199,8 @@ input[name="name"] {
 
 .input {
   appearance: none;
-  background: #D3D9D9;
-  
+  background: #d3d9d9;
+
   color: #555555;
   border: none;
   display: block;
@@ -1182,6 +1216,5 @@ input::-webkit-input-placeholder {
 }
 textarea {
   min-height: 14rem;
-  background: #D3D9D9;
+  background: #d3d9d9;
 }
-

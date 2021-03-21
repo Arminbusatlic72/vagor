@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 import content from "../../content/pricing.yaml"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -42,9 +42,9 @@ export default () => {
                   )}
                 </ul>
                 <footer className="plan-sign-up">
-                  <Link className="button" to={ plan.signup.to }>
+                  {/* <Link className="button" to={ plan.signup.to }>
                     { plan.signup.label }
-                  </Link>
+                  </Link> */}
                 </footer>
               </div>
             </div>
