@@ -16,7 +16,7 @@ const ContactForm = () => {
         <label>
           <input
             className="input"
-            placeholder="Name"
+            placeholder="Vaše ime"
             type="text"
             name="name"
             required
@@ -38,7 +38,7 @@ const ContactForm = () => {
         <label>
           <textarea
             className="input"
-            placeholder="Message"
+            placeholder="Vaša poruka"
             type="text"
             name="message"
           />
@@ -48,7 +48,7 @@ const ContactForm = () => {
         <input
           className="btn"
           type="submit"
-          value="Send Message"
+          value="Pošaljite poruku"
         />
      
     </form>

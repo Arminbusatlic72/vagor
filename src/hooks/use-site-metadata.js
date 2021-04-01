@@ -41,4 +41,5 @@ export const useSiteMetadata = () => {
     `
   )
   return site.siteMetadata
+  console.log(site)
 }

@@ -7,7 +7,7 @@ import Features from "../components/features"
 import Pricing from "../components/pricing"
 import CalltoAction from "../components/call-to-action"
 import Screenshots from "../components/screenshots"
-import Testimonials from "../components/testimonials"
+// import Testimonials from "../components/testimonials"
 import Subscribe from "../components/subscribe"
 
 import { useSiteMetadata } from "../hooks/use-site-metadata"
@@ -20,7 +20,7 @@ export default () => {
     "pricing": Pricing,
     "call-to-action": CalltoAction,
     "screenshots": Screenshots,
-    "testimonials": Testimonials,
+    // "testimonials": Testimonials,
     "subscribe": Subscribe
   }
 

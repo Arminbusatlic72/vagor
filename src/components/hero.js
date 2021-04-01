@@ -6,7 +6,7 @@ import content from "../../content/hero.yaml"
 export default () => (
   <section id="hero">
     <div className="hero-image">
-          {/* <img src={ content.image } alt=""  /> */}
+         
           <BackgroundImage/>
         </div>
     <div className="row">

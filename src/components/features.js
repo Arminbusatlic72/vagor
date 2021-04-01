@@ -38,6 +38,7 @@ export default () => (
         <div className={ 'row feature ' + value.name }>
           <div className={ 'six columns ' + pos }>
             <h3>{ value.title }</h3>
+            <h4>{ value.subTitle }</h4>
             <p>{ value.body }</p>
           </div>
 

@@ -1,35 +1,27 @@
 title: Galerija proizvoda.
-body: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+body: Pogledajte fotografije naših proizvoda
 screenshots:
-  -
-    big: 'b-vagor-proizvod-1.jpg'
-    thumb: 'vagor-proizvod-1.jpg'
-    caption: 'Line Icons'
-  -
-    big: 'b-vagor-proizvod-2.jpg'
-    thumb: 'vagor-proizvod-2.jpg'
-    caption: 'Hipster'
-  -
-    big: 'b-vagor-proizvod-3.jpg'
-    thumb: 'vagor-proizvod-3.jpg'
-    caption: 'Authentic Vintage'
-  -
-    big: 'b-vagor-proizvod-4.jpg'
-    thumb: 'vagor-proizvod-4.jpg'
-    caption: 'Spot UV Logo'
-  -
-    big: 'b-vagor-proizvod-5.jpg'
-    thumb: 'vagor-proizvod-5.jpg'
-    caption: 'TShirt Mockup'
-  -
-    big: 'b-vagor-proizvod-6.jpg'
-    thumb: 'vagor-proizvod-6.jpg'
-    caption: 'Abstract Vector'
-  -
-    big: 'b-vagor-proizvod-7.jpg'
-    thumb: 'vagor-proizvod-7.jpg'
-    caption: 'Embossed Paper'
-  -
-    big: 'b-vagor-proizvod-8.jpg'
-    thumb: 'vagor-proizvod-8.jpg'
-    caption: 'Judah'
+  - big: "b-vagor-proizvod-1.jpg"
+    thumb: "vagor-proizvod-1.jpg"
+    caption: "Line Icons"
+  - big: "b-vagor-proizvod-2.jpg"
+    thumb: "vagor-proizvod-2.jpg"
+    caption: "Hipster"
+  - big: "b-vagor-proizvod-3.jpg"
+    thumb: "vagor-proizvod-3.jpg"
+    caption: "Authentic Vintage"
+  - big: "b-vagor-proizvod-4.jpg"
+    thumb: "vagor-proizvod-4.jpg"
+    caption: "Spot UV Logo"
+  - big: "b-vagor-proizvod-5.jpg"
+    thumb: "vagor-proizvod-5.jpg"
+    caption: "TShirt Mockup"
+  - big: "b-vagor-proizvod-6.jpg"
+    thumb: "vagor-proizvod-6.jpg"
+    caption: "Abstract Vector"
+  - big: "b-vagor-proizvod-7.jpg"
+    thumb: "vagor-proizvod-7.jpg"
+    caption: "Embossed Paper"
+  - big: "b-vagor-proizvod-8.jpg"
+    thumb: "vagor-proizvod-8.jpg"
+    caption: "Judah"

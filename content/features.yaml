@@ -1,17 +1,22 @@
 - name: video
-  title: Video Support.
-  body: Aenean condimentum, lacus sit amet luctus lobortis, dolores et quas molestias excepturi enim tellus ultrices elit, amet consequat enim elit noneas sit amet luctu. Quis nostrum exercitationem ullam corporis suscipit laboriosam. No soleat fabulas prodesset vel, ut quo solum dicunt. Nec et amet vidisse mentitum. Cibo mutat nulla ei eam.
-  video: "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  title: LED RASVETA
+  subTitle:
 
-- name: UVC Terminator
-  title: Led rasveta u prostoriji
-  body: Aenean condimentum, lacus sit amet luctus lobortis, dolores et quas molestias excepturi enim tellus ultrices elit, amet consequat enim elit noneas sit amet luctu. Quis nostrum exercitationem ullam corporis suscipit laboriosam.Our library is continually refreshed with the latest on web technology so you'll never fall behind. Quis nostrum exercitationem ullam corporis suscipit laboriosam.
-  image: "images/Proizvod2.jpg"
+  body: Najsavremenija led tehnologija u uređaju UVC TERMINATOR. Led rasveta pruža čistu dozu svetlosti u zatvorenim objektima, koja omogućava kvalitetnu vidljivost I visoku ekonomičnost u potrošnji električne energije. Led rasveta u kombinaciji sa uvc programom uređaja za prećišćivanje vazduha I sterilizaciju radnih površina, ČINI GA JEDINIM I POSEBNIM APARAT NA SVETU PROFESIONALNIH NAMENA !
+  video: "https://www.youtube.com/embed/rp2DlBnei9I"
+
+# - name: UVC Terminator
+#   title: Led rasveta u prostoriji
+#   subTitle:
+#   body: Aenean condimentum, lacus sit amet luctus lobortis, dolores et quas molestias excepturi enim tellus ultrices elit, amet consequat enim elit noneas sit amet luctu. Quis nostrum exercitationem ullam corporis suscipit laboriosam.Our library is continually refreshed with the latest on web technology so you'll never fall behind. Quis nostrum exercitationem ullam corporis suscipit laboriosam.
+#   image: "images/Proizvod2.jpg"
 - name: UVC Termiator
   title: UVC  prečiščivać vazduha.
-  body: Lorem ipsum dolor sit amet, ea eum labitur scripserit, illum complectitur deterruisset at pro. Odio quaeque reformidans est eu, expetendis intellegebat has ut, viderer invenire ut his. Has molestie percipit an. Falli volumus efficiantur sed id, ad vel noster propriae. Ius ut etiam vivendo, graeci iudicabit constituto at mea. No soleat fabulas prodesset vel, ut quo solum dicunt. Nec et amet vidisse mentitum. Cibo mutat nulla ei eam.
+  subTitle:
+  body: Uvc terminator je plafonski uređaj pre svega. Poznato je da toplota u prostoriji ide uvek u pravcu na gore, a sa njim virusi I bakterije koje su u vazduhu. Uvc terminator upravo poseduje najefikasniji prećišćivač vazduha koji ima dvostuki sistem uništavanja virusa I bakterija.
   image: "images/Proizvod3.jpg"
-- name: UVC Termiator
-  title: UVC  led serilizator radhih površina i vazduha
-  body: Lorem ipsum dolor sit amet, ea eum labitur scripserit, illum complectitur deterruisset at pro. Odio quaeque reformidans est eu, expetendis intellegebat has ut, viderer invenire ut his. Has molestie percipit an. Falli volumus efficiantur sed id, ad vel noster propriae. Ius ut etiam vivendo, graeci iudicabit constituto at mea. No soleat fabulas prodesset vel, ut quo solum dicunt. Nec et amet vidisse mentitum. Cibo mutat nulla ei eam.
+- name: UVC Terminator
+  title: GERMICDIDNI UVC LED
+  subTitle:
+  body: UVC zraci imaju snažan uticaj na jezgra ćelija virusa, bakterija, buđi i drugih patogena čime se onemogućava ćelijska deoba i umnožavanje, što dovodi do njihove inaktivacije i uništenja u veoma kratkom periodu. Uvc germicidne sijalice ili neonke su do skoro bile najefikasniji program germicidnog programa ali onda se pojavio germicidno led svetlo na tržištu.
   image: "images/Proizvod1.jpg"

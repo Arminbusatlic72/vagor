@@ -5,11 +5,15 @@ body1: UVC prečiščivać vazduha
 body2: UVC led serilizator radhih površina i vazduha
 
 plans:
-  -
-    title: Starter
+  - title: LED RASVETA
     fa: cog
-    price: FREE
-    per: per month
+    price: Najsavremenija led tehnologija u uređaju UVC TERMINATOR.
+    per: Led rasveta pruža čistu dozu svetlosti u zatvorenim objektima, koja omogućava kvalitetnu vidljivost I visoku ekonomičnost u potrošnji električne energije. Led rasveta u kombinaciji sa uvc programom uređaja za prećišćivanje vazduha I sterilizaciju radnih površina, ČINI GA JEDINIM I POSEBNIM APARAT NA SVETU PROFESIONALNIH NAMENA !
+    body: Pojam LED svetiljka (engl. LED, Light Еmitting Diode) izvor je svetlosti koga čine više LED sijalica upakovanih u jednu svetiljku. Ova sijalica radi na principu elektrolumininscencije, pojave koja nastaje prilikom rekombinacije elektrona i šupljina u poluprovodniku. Za rad LED svetiljki potrebna je kontrolisana jednosmerna struja, pa su one obično već snabdevenim potrebnim pogonskim uređajima (drajverima). Same LED sijalice ne proizvode velike količine toplote, ali pogonski uređaji proizvode. Stoga, ove svetiljke su izuzetno osetljive na visoke temperature, pa su obično opremljene hladnjacima.
+    body1: LED svetiljke pružaju duži radni vek u poređenju sa inkadescentnim i nekim fluorescentnim sijalicama, ali uz više početne finansijske troškove. Efikasnost LED svetiljki nastavlja da se poboljšava, a neki čipovi su sposobni da daju više od 100 lm/W. Jedna LED sijalica (površine reda nekoliko kvadratnih milimetara) ne emituju svetlost u svim pravima, ali se ovaj problem rešava dizajniranjem svetiljke sa više dioda. Efikasnost LED svetiljki je uglavnom značajno veća od efikasnosti inkandescentnih sijalica, tako da za istu snagu LED svetiljke daju mnogo više svetlosti.
+    body2: Istraživanje koje je sprovelo Ministarstvo energetike SAD na uzorku od 34 miliona LED sijalica dalo je rezultate o razlozima njihovih kvarova. Ukazuju na nekoliko različitih uzroka. Pokazalo se da otkazivanje rada LE dioda čini samo 10% kvarova, da kontrolno strujno kolo utiče na kvarove u još manjem procentu (7%), da su spoljni uzroci krivci u 31% slučajeva (neadekvatni radni uslovi, strujni udar…), a da više od polovine kvarova (52%) na LED sijalicama potiče od otkazivanja komponenti u strujnom napajanju sijalice.
+    body3Question: Koliki je životni vek LED SVETLA?
+    body3: Kao i kod svih drugih proizvoda, i kod LED svetala varira vreme njihovog životnog veka i ono zavisi od kvaliteta samih dioda. Životni vek led rasvete kod uređaja uvc terminator je 90 000 radnih sati.
     features:
       - 1GB Storage
       - 5GB Bandwidth
@@ -19,27 +23,30 @@ plans:
       - 25 Email Accounts
     signup:
       label: Sign Up
-      to: '#'
-  -
-    title: Standard
+      to: "#"
+  - title: UVC Prećišćivač vazduha
     fa: thumbs-up
-    price: $9.99
-    per: per month
-    features:
-      - 3GB Storage
-      - 10GB Bandwidth
-      - 3 Domains
-      - 5 Databases
-      - 3 FTP Account
-      - 30 Email Accounts
+    price:
+    per:
+    body: Uvc terminator je plafonski uređaj pre svega. Poznato je da toplota u prostoriji ide uvek u pravcu plafona-na gore, a sa njim virusi I bakterije koje su u vazduhu. Uvc terminator upravo poseduje najefikasniji prećišćivač vazduha koji ima dvostuki sistem uništavanja virusa I bakterija, a on radi po sledećem principu
+    body3Question: OVAJ PROGRAM PREĆIŠĆAVANJA VAZDUHA RADI UVEK DOK SU LJUDI PRISUTNI U OBJEKTU I POTPUNO JE BEZBEDAN PO ČOVEKA, JER NEMA NIKAKVA GERMICIDNA ZRAČENJA.
+    body2: Za 1h, uređaj prečisti oko 54m3 vazduha, što je površine oko 20m2. Poznato je da prećišćivanje vazduha germicidnom lampom je jedini efikasan metod ubijanja virusa I bakterija, Prećišćivanje vazduha samo sa filterima nije efikasno u potpunosti iz razloga što su mnoge vrste virusa I bakterija otporni na filtere I zadržavanju se u njima, a onda dalje se vraćaju putem vazduha. U kombinaciji sa germicidnim uvc led sistemom koji radi kada ljudi nisu prisutni u prostoriji, dobićete uređaj koji 24h eliminiše sve čestice I mikroorganizme svih virusa I bakterija, u vazduhu ali I na radnim površinama.
+
+    bodyHTML: <ul class="features"><li>Bešumni Ventilator uređaja uvlači vazduh iz prostorije kroz hepa filter I zadržava sve krupnije čestice I mikroorganizme virusa I bakterija</li><li>Vazduh koji je uvučen prolazi kroz komoru aparata gde je smeštena GERMICIDNA sijalica od 15w, koja u potpunosti uništava svaki mikroorganizam koji je u vazduhu I neutrališe čak I mirise</li><li>Ventilator izbacuje čist I sterilan vazduh I vraća ga u prostoriju, vazduh koji je 100% bezbedan</li><li>Temperatura vazduha se ne menja prilikom uvlačenja  I ispuštanja vazduha</li><ul/>
+
     signup:
       label: Sign Up
-      to: '#'
-  -
-    title: Premium
+      to: "#"
+  - title: GERMICDIDNI UVC LED
     fa: star
-    price: $19.99
-    per: per month
+    price:
+    per:
+    body: UVC zraci imaju snažan uticaj na jezgra ćelija virusa, bakterija, buđi i drugih patogena čime se onemogućava ćelijska deoba i umnožavanje, što dovodi do njihove inaktivacije i uništenja u veoma kratkom periodu. Uvc germicidne sijalice ili neonke su do skoro bile najefikasniji program germicidnog programa ali onda se pojavio germicidno led svetlo na tržištu. Razlika je što germicdni led pruža mnogo veću dozu germicidnih zraka, veću površinu pokrivaju I mnogo duže traju, do 50 000 radnih sati. Dok germicidna neonka ima radni vek 9000 radnih sati.
+    body1: UVC LED GERMICIDNI program radi isključivo kada ljudi nisu prisutni u prostoriji. Ukoliko osoba uđe u prostoriju tokom rada uvc led programa, senzor će ugasiti uvc program na 30 sekundi.
+    body2:
+    body3Question: PO VAŠEM DOLASKU U PROSTORIJU VAŠ OBJEKAT ĆE BITI DEZINFIKOVAN I STERILAN, TU GASITE UVC LED PROGRAM I PALITE PREĆIŠĆIVAČ VAZDUHA, KOJI ĆE NASTAVITI PROGRAM PREČIŠĆIVANJA VAZDUHA DOK BORAVITE U OBJEKTU.
+    body3: Postavljanjem lampe u prostoriji na plafonu i aktivacijom putem jednog klika startuje emitivanje UVC zraka, tako da će svi predmeti koju budu direktno izloženi zracima uvc led programa biti dezinfikovani I sterilni.
+
     features:
       - 10GB Storage
       - 25GB Bandwidth
@@ -49,19 +56,4 @@ plans:
       - 50 Email Accounts
     signup:
       label: Sign Up
-      to: '#'
-  -
-    title: Ultimate
-    fa: trophy
-    price: $29.99
-    per: per month
-    features:
-      - 30GB Storage
-      - Unlimited Bandwidth
-      - 10 Domains
-      - 15 Databases
-      - 10 FTP Account
-      - 50 Email Accounts
-    signup:
-      label: Sign Up
-      to: '#'
+      to: "#"

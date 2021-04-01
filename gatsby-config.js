@@ -7,11 +7,11 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: `Vagor Company UV Terminator`,
+    title: `Vagor Company UVC Terminator`,
     author: {
       name: `Armin Busatlic`,
     },
-    description: `Vagor kompanija za nabavku UV lampi`,
+    description: `Vagor OVLAŠĆENI ZASTUPNIK ZA BALKAN UVC Terminator`,
 
     /* Choose and arrange the sections to be displayed on the landing page */
     sections: [
@@ -20,7 +20,7 @@ module.exports = {
       `pricing`,
       `call-to-action`,
       `screenshots`,
-      `testimonials`,
+      // `testimonials`,
       `subscribe`
     ],
 
@@ -29,21 +29,16 @@ module.exports = {
       {path: 'features', label: 'Proizvodi'},
       {path: 'pricing', label: 'O proizvodu'},
       {path: 'screenshots', label: 'Galerija'},
-      {path: 'testimonials', label: 'Reference'},
+      // {path: 'testimonials', label: 'Reference'},
       {path: 'subscribe', label: 'Kontakt'},
     ],
 
     /* Provide social media accounts. Remove or add new services. (The value 'fa' is the name of FontAwesome icon to display. Choose from here: https://fontawesome.com/cheatsheet/free/brands ) */
     social: [
       { service: `Facebook`,
-        url : `https://facebook.com/styleshout`,
-        fa: `facebook` },
-      { service: `Twitter`,
-        url : `https://twitter.com/styleshout`,
-        fa: `twitter` },
-      { service: `GitHub`,
-        url : `https://github.com/desmukh/gatsby-starter-woo`,
-        fa: `github` },
+        url : `https://www.facebook.com/grejalicezabaste.susacizaruke.uvlampezainsekte`,
+        fa: `facebook` }
+      
     ],
 
     /* Path to favicon and logo (located inside the 'static' folder) */
@@ -59,14 +54,14 @@ module.exports = {
 
     /* Address and contact info to show in footer */
     address: {
-      line1: `1600 Amphitheatre Parkway`,
-      line2: `Mountain View, CA`,
-      line3: `94043 US`,
+      line1: `Novi Beogad, Bulevar Arsenija Čarnojevića 39`,
+      line2: `11 000, Beograd`,
+      line3: `Srbija`,
     },
     contacts: [
-      { text: `647.343.8234`, url: `tel:6473438234` },
-      { text: `123.456.7890`, url: `tel:1234567890`},
-      { text: `someone@woosite.com`, url: `mailto:someone@woo.com`},
+      { text: `+38162 378 621`, url: `tel:+38162 378 621` },
+      // { text: `123.456.7890`, url: `tel:1234567890`},
+      { text: `vagordoo@gmail.com`, url: `mailto:vagordoo@gmail.com`},
     ],
   },
   plugins: [ 

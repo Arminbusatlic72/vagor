@@ -23,24 +23,32 @@ export default () => {
       </div>
 
       <div className="row">
-        <div className="pricing-tables bgrid-quarters s-bgrid-halves">
+      <div className="pricing-tables">
+       
+        <div className="row add-bottom">
           { content.plans.map((plan, index) =>
-            <div className="column">
+          
+            <div className="twelve columns add-bottom">
               <div className="price-block">
-                <h3 className="plan-title">
-                  <i className="fa"><FontAwesomeIcon icon={ plan.fa } /></i>
+                <h3 className="plan-price">
+                  {/* <i className="fa"><FontAwesomeIcon icon={ plan.fa } /></i> */}
                   { plan.title }
                 </h3>
-                <p className="plan-price">
+                
+                <p className="">
                   { plan.price }
                   <span>{ plan.per }</span>
                 </p>
-
-                <ul className="features">
-                  { plan.features.map((value, index) =>
-                    <li>{ value }</li>
-                  )}
-                </ul>
+                <div className="drop-cap__wrapper">
+                <p className="drop-cap">{ plan.body }</p>
+                <div key={`body`} id="___gatsby" dangerouslySetInnerHTML={{ __html: plan.bodyHTML }}/>
+                <p className="">{ plan.body1 }</p>
+                <p className="">{ plan.body2 }</p>
+                <p><span>{plan.body3Question}</span>
+                {plan.body3}</p>
+                </div>
+                
+                
                 <footer className="plan-sign-up">
                   {/* <Link className="button" to={ plan.signup.to }>
                     { plan.signup.label }
@@ -48,8 +56,10 @@ export default () => {
                 </footer>
               </div>
             </div>
+            
           )
           }
+          </div>
         </div>
       </div>
     </section>

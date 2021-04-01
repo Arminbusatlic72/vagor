@@ -1,7 +1,7 @@
 title:
   text: Lista bakterija i virusa koje UV terminator u potpunosti eliminiše.
   url: #
-body: 'Pruzmite katalog sa uputstvom za upotrebu i listom virusa i bakterija koje se uspješno eliminišu korištenjem našeg uređaja <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT"><span>PDF</span></a>. <span>Get katalog</span>.'
+body: "Pruzmite katalog sa uputstvom za upotrebu i listom virusa i bakterija koje se uspješno eliminišu korištenjem našeg uređaja <span></span></a>."
 button:
   label: <FontAwesomeIcon icon={faFileDownload} />
-  url: "http://www.dreamhost.com/r.cgi?287326|STYLESHOUT"
+  # url: "http://www.dreamhost.com/r.cgi?287326|STYLESHOUT"

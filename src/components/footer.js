@@ -60,7 +60,7 @@ export default () => {
         </div>
       </div>
 
-      <p className="copyright">&copy; 2021 Vagor | Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a> | Ported to Gatsby by <a href="https://github.com/desmukh/gatsby-starter-woo" title="Fahad Desmukh">Fahad Desmukh</a> </p>
+      <p className="copyright">Copyright &copy; 2021 Vagor | Sva prava zadržana </p>
 
       <div id="go-top">
         <button title="Back to Top" onClick={() => scrollTo('#top')}>
